@@ -90,7 +90,7 @@ namespace SandboxConsole.Logic
             //for (long i = (maxValue - 1); i > 0; i--)
             for (long i = maxValue - 1; i > 0; i--)
             {
-                if (MathHelper.IsPrimeNumber(i))
+                if (maxValue % i == 0 && MathHelper.IsPrimeNumber(i))
                 {
                     largestPrimeHolder = i;
                     break;

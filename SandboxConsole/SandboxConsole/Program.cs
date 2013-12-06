@@ -20,7 +20,7 @@ namespace SandboxConsole
 
             //Console.WriteLine("Euler #2: {0}", Euler.SumEvenFibonacci());
 
-            //Console.WriteLine("Euler #3: {0}", Euler.LargestPrimeFactorOf(13195L));
+            Console.WriteLine("Euler #3: {0}", Euler.LargestPrimeFactorOf(13195L));
             Console.WriteLine("Euler #3: {0}", Euler.LargestPrimeFactorOf(600851475143L));
 
             Console.WriteLine("Euler #4: {0}", Euler.GetLargestPalindromeForDigits(3));
